@@ -1,0 +1,18 @@
+/* Eric Fedrowisch
+ * Triangular Traveling Salesman Problem Algorithm
+ */
+public class TTSP {
+  //Init Empty TSP 
+  public TTSP() {
+    
+  }
+  //Read data file
+  public TTSP(String data_file){
+    TTSP ttsp = new TTSP();
+  }
+  
+  public static void main(String args[]){
+    
+  
+  }
+}
