@@ -25,7 +25,7 @@ public class TTSP {
       fileName = args[0];
       System.out.println("Opening "+fileName);
       Parser parser = new Parser(fileName);
-      this.setPoints(parser.points);
+      //this.setPoints(parser.points);
     }
     else {
       System.out.println("Error: No data filename given.");
