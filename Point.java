@@ -8,5 +8,11 @@ public class Point{
     this.x = a;
     this.y = b;
   }
-
+  
+  public String toString()
+  {
+    String s;
+    s = "("+String.valueOf(this.x)+","+String.valueOf(this.x)+")";
+    return s;
+  }
 }
