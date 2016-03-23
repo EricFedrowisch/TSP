@@ -12,7 +12,7 @@ public class Point{
   public String toString()
   {
     String s;
-    s = "("+String.valueOf(this.x)+","+String.valueOf(this.x)+")";
+    s = "("+String.valueOf(this.x)+","+String.valueOf(this.y)+")";
     return s;
   }
 }

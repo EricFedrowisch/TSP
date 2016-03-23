@@ -2,12 +2,11 @@
  * Triangular Traveling Salesman Problem Algorithm
  */
 package TSP;
-import java.io.*;
-import java.util.*;
-import TSP.Point.*;
-import TSP.Parser.*;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+
+import java.util.ArrayList;
+import TSP.Point;
+import TSP.Line;
+import TSP.Parser;
 
 public class TTSP {
   
@@ -15,6 +14,10 @@ public class TTSP {
   {
     Parser parser = new Parser(fileName);
     ArrayList<Point> points = parser.points;
+    //Toy example
+    Line l = new Line(points.get(3),points.get(1));
+    System.out.println(l.ID);
+    System.out.println(l.length);
     
   }
   
