@@ -38,6 +38,5 @@ public class Parser{
       e.printStackTrace();
     }//End of catch IOException
   //for (Point p: points) {System.out.println(p.x+","+p.y);}
-  System.out.println("# of Points: "+ points.size());
   }//End of class
 }
